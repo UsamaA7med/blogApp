@@ -76,9 +76,7 @@ export const Navbar = () => {
               <ThemeSwitch />
             </NavbarMenuItem>
           </div>
-          <NavbarMenuItem className="mb-5">
-            <NavbarMenuToggle />
-          </NavbarMenuItem>
+          <NavbarMenuToggle />
         </div>
       </NavbarMenu>
     </HeroUINavbar>

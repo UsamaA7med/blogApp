@@ -16,13 +16,13 @@ const RecentBlogs = ({ posts }: { posts: TPost[] }) => {
           <div className="grid grid-rows-2 gap-5">
             <Post
               post={posts[1]}
-              textWidth="w-1/2"
+              textWidth={isSmallScreen ? 'w-full' : 'w-1/2'}
               style="flex-row"
               screen={isSmallScreen}
             />
             <Post
               post={posts[2]}
-              textWidth="w-1/2"
+              textWidth={isSmallScreen ? 'w-full' : 'w-1/2'}
               style="flex-row"
               screen={isSmallScreen}
             />
