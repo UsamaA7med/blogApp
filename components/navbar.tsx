@@ -20,7 +20,9 @@ export const Navbar = () => {
     <HeroUINavbar maxWidth="2xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
-          <p className="font-bold text-inherit">Your Name</p>
+          <Link href="/" color="foreground">
+            <p className="font-bold text-inherit">Your Name</p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
